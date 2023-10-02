@@ -1,0 +1,103 @@
+body{
+    background-color: #D3D3D3;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.main{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width:100%;
+}
+
+.flex1{
+    flex:20vh;
+    display: flex;
+    margin: 0% 5% 0 10%;
+    gap:2em;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+img[src="main_logo.jpg"]{
+    border-radius: 2em;
+}
+
+.flex2{
+    flex:70vh;
+    display: flex;
+    font-size: 3em;
+    align-items: center;
+}
+.flex3{
+    flex:70vh;
+    margin: 0% 10% 0 10%;
+    display: flex;
+    flex-direction: row;
+    gap:20em;
+}
+
+.singer1{
+    flex:40vw;
+}
+.singer2{
+    flex:40vw;
+}
+
+.singers{
+    height:25em;
+    width:20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rock{
+    height:25em;
+    width:25em;
+    box-shadow: 20px 25px 1px ; 
+}
+
+.singers p{
+    font-size: 1.45em;
+    font-weight: bold;
+}
+.m{
+    margin-top: 40px;
+}
+
+
+
+.footer{
+    flex:20vh;
+  
+}
+.footer h3{
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.footer p{
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+a:hover{
+padding:0.5em;
+        color:white;
+        background: black;
+}
+
+
+#anida:hover{
+color:black;
+}
